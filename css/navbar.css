@@ -1,0 +1,38 @@
+/* navbar */
+.navbar {
+  background-color: #1e1e1e;
+}
+.navbar-brand p {
+  color: #f1f1f1;
+  font-size: 24px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  margin-bottom: -6px;
+  margin-left: 15px;
+}
+.navbar-nav a {
+  color: #f1f1f1;
+  font-family: "Inter", sans-serif;
+
+  font-size: 16px;
+}
+.navbar-nav a:hover {
+  color: #f1f1f1;
+}
+.navbar-toggler-icon {
+  filter: invert(1);
+}
+.resume {
+  font-size: 14px;
+  border-radius: 10px;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  .navbar-nav a {
+    margin-right: 35px;
+  }
+  .resume {
+    margin-left: 170px;
+  }
+}

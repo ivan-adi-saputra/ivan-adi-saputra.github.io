@@ -1,0 +1,21 @@
+/* footer */
+.footer .social-media {
+  margin-left: 27%;
+}
+.footer .social-media a {
+  margin-top: 50px;
+  color: #656d72;
+}
+.footer .text-center {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #656d72;
+  margin-top: -70px;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  .footer .social-media {
+    margin-left: 42%;
+  }
+}

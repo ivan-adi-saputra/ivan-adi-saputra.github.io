@@ -1,0 +1,46 @@
+/* portfolio */
+#portfolio {
+  background-color: #1e1e1e;
+  padding-bottom: 40px;
+}
+.portfolio .container {
+  padding-top: 100px;
+}
+.name-portfolio {
+  color: #f1f1f1;
+}
+.card {
+  margin-top: 20px;
+}
+.card img {
+  position: relative;
+}
+.card .blur::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 65%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+}
+.portfolio a {
+  text-decoration: none;
+}
+.card-text {
+  color: #232e35;
+  font-size: 16px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+}
+.card-body .btn {
+  width: 70px;
+  height: 20px;
+  border-radius: 4px;
+  margin-top: -20px;
+}
+.card-body .btn p {
+  color: #656d72;
+  font-size: 10px;
+  margin-top: -4px;
+}

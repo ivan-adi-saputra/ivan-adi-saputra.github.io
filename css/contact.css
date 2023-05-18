@@ -1,0 +1,30 @@
+/* contact */
+#contact {
+  background-color: #1e1e1e;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.btn-contact {
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #7e74f1;
+}
+.btn-contact p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  margin-top: 8px;
+  color: #f5f3fe;
+}
+.contact-right div {
+  color: #f1f1f1;
+  font-family: "Inter", sans-serif;
+}
+.contact-right .text-1 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.contact-right .text-2 {
+  font-size: 12px;
+}

@@ -1,0 +1,76 @@
+/* about */
+#about {
+  background-color: #fbfbfb;
+  font-family: "Inter", sans-serif;
+}
+#about .container {
+  padding-top: 80px;
+}
+.line .dash-light {
+  color: #d9d9d9;
+}
+.about-name {
+  font-size: 36px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: bold;
+  color: #232e35;
+}
+.img-ig {
+  height: 182px;
+  width: 182px;
+}
+.username {
+  font-size: 26px;
+  font-weight: 600;
+  color: #656d72;
+  margin-left: 20px;
+}
+.follow {
+  font-size: 18px;
+  color: #656d72;
+}
+.follow span {
+  font-weight: 600;
+}
+.btn-follow {
+  width: 256px;
+  height: 45px;
+  background-color: #1a6ce8;
+  border-radius: 8px;
+}
+.btn-follow p {
+  font-size: 18px;
+  color: #f5f3fe;
+  font-weight: 500;
+  margin-top: 3px;
+}
+.about .line {
+  margin-top: 30px;
+}
+.about-description {
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #656d72;
+}
+.about-description a {
+  text-decoration: none;
+  color: #1a6ce8;
+  font-weight: 600;
+}
+
+/* DESKTOP VERSION */
+@media (min-width: 992px) {
+  #about {
+    height: 100vh;
+  }
+  .about-description {
+    font-size: 18px;
+  }
+}
+
+/* MOBILE VERSION */
+@media (max-width: 767.98px) {
+  #about {
+    height: 1100px;
+  }
+}
